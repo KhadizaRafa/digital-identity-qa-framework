@@ -1,0 +1,9 @@
+pytest>=8.0.0
+requests>=2.31.0
+playwright>=1.41.0
+pytest-playwright>=0.4.0
+allure-pytest>=2.13.2
+python-dotenv>=1.0.1
+jsonschema>=4.21.1
+Faker>=23.0.0
+pytest-html>=4.1.1

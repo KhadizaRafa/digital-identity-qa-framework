@@ -1,0 +1,16 @@
+[
+    {
+        "username": "test_user_01",
+        "email": "test_user_01@example.com",
+        "password": "SecurePassword123!",
+        "full_name": "Test User One",
+        "kyc_status": "verified"
+    },
+    {
+        "username": "test_user_02",
+        "email": "test_user_02@example.com",
+        "password": "SecurePassword456!",
+        "full_name": "Test User Two",
+        "kyc_status": "pending"
+    }
+]

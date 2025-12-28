@@ -1,0 +1,21 @@
+[
+    {
+        "description": "Missing email",
+        "payload": {
+            "username": "no_email_user",
+            "password": "Password123!",
+            "full_name": "No Email User"
+        },
+        "expected_error": "Email is required"
+    },
+    {
+        "description": "Short password",
+        "payload": {
+            "username": "short_pass_user",
+            "email": "short@example.com",
+            "password": "123",
+            "full_name": "Short Pass User"
+        },
+        "expected_error": "Password must be at least 8 characters"
+    }
+]
